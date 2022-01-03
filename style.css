@@ -7,49 +7,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(253, 251, 251);
 }
-h2{
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 1%;
+h2 {
+  margin-top: 10px;
   margin-left: 15px;
+  padding-top: 10px;
 }
-h4{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  margin-bottom: 1%;
-  margin-left: 15px;
-}
-a:link {
+a,
+a:visited,
+a:active {
   text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-
-a:visited {
-  text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: black;
+  color: aliceblue;
+  font-weight: 600;
 }
 
-a:active {
-  text-decoration: underline;
-  color: gray;
-  bottom: 1px;
-}
-footer{
+footer {
+  color: white;
   background-color: rgb(44, 42, 42);
-  height: 50px;
-  position: bottom;
-  padding: 5%;
+  height: 90px;
+  position:absolute;
+	bottom:0;
+  width: 100%;
 }
-#foto{
+#foto {
   width: 500px;
 }
 #fotoPerfil {
-  margin-left: 10px;
-  margin-bottom: 15px;
+  margin: 15px;
   border-radius: 8px;
   width: 100%;
 }
@@ -63,49 +50,45 @@ footer{
 }
 
 #cabecalho {
+  color: white;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: bold;
 }
 
 #mainBody {
   display: flex;
-  flex-flow: row nowrap;
-  margin-bottom: 2%;
 }
 
 #links {
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: rgb(253, 251, 251);
 }
 
-
 #sobreMim {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-indent: 1.5em;
   font-weight: 400;
-  text-align: left;
   text-align: justify;
-  padding: 0;
-  margin-left: 15px;
+  margin: 15px 25px;
 }
 
 #conhecimentos {
-  width: 60%;
+  width: 50%;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 12%;
+  padding: 15px 0;
 }
-#contatos{
+
+#contatos {
+  width: 50%;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: space-between;
 }
-#icones{
-  width: 20px;
+
+#contatos i {
+  font-size: larger;
 }
