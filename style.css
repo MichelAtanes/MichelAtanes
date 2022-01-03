@@ -7,7 +7,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(253, 251, 251);
 }
-
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1%;
+  margin-left: 15px;
+}
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 1%;
+  margin-left: 15px;
+}
 a:link {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -28,25 +38,41 @@ a:active {
   color: gray;
   bottom: 1px;
 }
-
-figure {
-  text-align: center;
+footer{
+  background-color: rgb(44, 42, 42);
+  height: 50px;
+  position: bottom;
+  padding: 5%;
+}
+#foto{
+  width: 500px;
+}
+#fotoPerfil {
+  margin-left: 10px;
   margin-bottom: 15px;
+  border-radius: 8px;
+  width: 100%;
 }
 
 #topbox {
-  padding-top: 20px;
+  padding: 2%;
   background-color: rgb(7, 121, 105);
   height: 20%;
   box-sizing: border-box;
+  margin-bottom: 1%;
 }
 
 #cabecalho {
   text-align: center;
-
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
+}
+
+#mainBody {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 2%;
 }
 
 #links {
@@ -56,9 +82,16 @@ figure {
   color: rgb(253, 251, 251);
 }
 
-#fotoPerfil {
-  border-radius: 50%;
-  max-width: 20%;
+
+#sobreMim {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-indent: 1.5em;
+  font-weight: 400;
+  text-align: left;
+  text-align: justify;
+  padding: 0;
+  margin-left: 15px;
 }
 
 #conhecimentos {
@@ -66,8 +99,13 @@ figure {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 12%;
 }
-
-.infotop {
-  margin-top: 1%;
+#contatos{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#icones{
+  width: 20px;
 }
